@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="./bower_components/angular/angular.js"></script>
+    <script src="bower_components/firebase/firebase.js"></script>
+    <script src="bower_components/angularfire/dist/angularfire.js"></script>
+
+
+    <script src="app.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="indexCtrl as ctrl">
+
+<!--
+Object :  {{ctrl.objData.sdfsd}}
+<br><br>
+Array :  {{ctrl.arrayData[1].$value}}
+-->
+
+
+{{ctrl.objData}}
+
+<br><br>
+
+{{ctrl.arrayData}}
+</body>
+</html>
